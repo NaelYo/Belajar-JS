@@ -1,0 +1,7 @@
+#circle {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 50%;
+}
