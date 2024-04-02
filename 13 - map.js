@@ -24,7 +24,6 @@ console.log(ibuKota.get('London')); //Output: 'England', artinya => kita mengamb
 
 ibuKota.set('Bangkok', 'Thailand'); //artinya => kita menambahkan elemen baru ke dalam map ibuKota dengan key 'Bangkok' dan value 'Thailand'
 console.log(ibuKota.size); //Output: 4, karena kita sudah menambahkan elemen baru ke dalam map kita
-
 console.log(ibuKota.get('Bangkok')); //Output: 'Thailand', artinya => kita mengambil value dari key 'Bangkok'
 
 /* kita bisa mengecek atau menghapus Map dengan menggunakan (has), (delete), dan (clear) */
@@ -51,4 +50,4 @@ console.log(wrongMap["My Key"]); //Output: 'My Value'
 //Namun, kode di atas bukanlah cara yang sesuai untuk mengoperasikan Map. Ketika kita menetapkan nilai map seperti di atas, data akan disimpan sebagai generic object. Ini akan mengakibatkan data tidak tersimpan dalam Map query dan tidak bisa menggunakan fitur dari Map seperti (has) atau (delete)
 console.log(wrongMap.has("My Key")); //Output: false
 console.log(wrongMap.delete('My Key')); //Output: false
-//liat, key 'My Key' tidak tersimpan di Map query, sehingga saat dicek key ada atau tidak (has), maka hasilnya akan false, dan saat ingin di hapus (delete) hasilnya juga false, karena tidak tersipan di Map query
+//liat, key 'My Key' tidak tersimpan di Map query, sehingga saat dicek key ada atau tidak (has), maka hasilnya akan false, dan saat ingin di hapus (delete) hasilnya juga false, karena tidak tersimpan di Map query
